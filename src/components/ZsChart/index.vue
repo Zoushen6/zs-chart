@@ -37,14 +37,15 @@ const initChart = () => {
   charts = echarts.init(chart.value)
 }
 
-const paintChart = (option:any) => {
-  charts.setOption(option)
+const paintChart = (option:any,notMerge:boolean = false) => {
+  console.log('paint')
+  charts.setOption(option,notMerge)
 }
 
 const resizeChart = () => {
   charts.resize()
 }
-defineExpose([paintChart,resizeChart])
+defineExpose({paintChart,resizeChart})
 </script>
 
 <style scoped>

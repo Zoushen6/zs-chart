@@ -11,10 +11,12 @@ specifiers:
   vite: ^5.0.10
   vue: ^3.3.11
   vue-tsc: ^1.8.25
+  zs-chart: ^1.0.0
 
 dependencies:
   echarts: 5.4.3
   vue: 3.3.13_typescript@5.3.3
+  zs-chart: 1.0.0
 
 devDependencies:
   '@tsconfig/node18': 18.2.2
@@ -1008,4 +1010,8 @@ packages:
     resolution: {integrity: sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw==}
     dependencies:
       tslib: 2.3.0
+    dev: false
+
+  /zs-chart/1.0.0:
+    resolution: {integrity: sha512-6R2c1iK/dG6DQE4RsL5MjjlZfy0I+PsV3JH2BtmZXcEZhLlihOwroE13G2hXi/xr/cxT+6aaB/d36uD/r2RgRg==}
     dev: false

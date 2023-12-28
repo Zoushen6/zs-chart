@@ -4,13 +4,20 @@
   </header>
   <main>
     <div>
-      <zs-chart></zs-chart>
+      <z-chart ref="chart" width="500"></z-chart>
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
 // import ZsChart from '@/components/ZsChart/index.vue'
+import {ZChart} from "@/components/ZsChart/index.ts";
+import {ref,onMounted} from 'vue'
+const chart = ref()
+onMounted(() => {
+  // chart.value.paintChart({},true)
+  console.log(chart.value)
+})
 </script>
 
 <style scoped>

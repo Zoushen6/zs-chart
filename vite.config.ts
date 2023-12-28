@@ -15,7 +15,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'zs-chart',
+    outDir: 'zs-chart/dist',
     lib: {
       entry: path.resolve(__dirname,"./src/components/ZsChart/index.ts"),
       name: 'zs-chart',

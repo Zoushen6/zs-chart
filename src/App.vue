@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 // import ZsChart from '@/components/ZsChart/index.vue'
-import {ZChart} from "@/components/ZsChart/index";
+import {ZChart} from "zs-chart";  //按需引入方法
 import {ref,onMounted} from 'vue'
 const chart = ref()
 onMounted(() => {

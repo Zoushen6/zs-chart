@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  zs-chart: ^1.0.2
+
+dependencies:
+  zs-chart: 1.0.2
+
+packages:
+
+  /zs-chart/1.0.2:
+    resolution: {integrity: sha512-HBTqMX/YDVQJLSrMZT0Ih/gTls7QhDDnXWsWAa0pPRvJQp8PM6PfJ0y4NDHo3d4vMjx57Ez/ipbHH9iDL7A6Ug==}
+    dev: false

@@ -6,5 +6,5 @@ import ZsChart from "@/components/ZsChart/index";
 
 const app = createApp(App)
 //全局引入
-// app.use(ZsChart)
+app.use(ZsChart)
 app.mount('#app')

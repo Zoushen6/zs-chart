@@ -5,8 +5,8 @@ export {ZChart}
 
 const ZsChart = {
     install: (App:any) => {
-        const name = chart.name || chart.__name
-        App.component(name,chart)
+        const name = ZChart.name || ZChart.__name
+        App.component(name,ZChart)
     }
 }
 

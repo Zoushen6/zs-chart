@@ -1,0 +1,12 @@
+{
+  "name": "zs-chart",
+  "version": "1.0.0",
+  "description": "vue3 echart插件",
+  "main": "zs-chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["zoushen","zs","zs-chart","ZsChart"],
+  "author": "zoushen",
+  "license": "ISC"
+}

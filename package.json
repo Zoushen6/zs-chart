@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "base-echarts": "^3.0.8",
     "echarts": "^5.4.3",
     "vue": "^3.3.11",
     "zs-chart": "^1.0.1"

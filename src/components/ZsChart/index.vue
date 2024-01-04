@@ -9,7 +9,7 @@ import { ref,onMounted } from "vue";
 
 const chart = ref<HTMLElement>();
 let charts:any
-defineProps({
+const props = defineProps({
   height: {
     type: Number,
     default: 200
@@ -20,7 +20,7 @@ defineProps({
   },
   defaultOption: {
     type: Object,
-    default: {}
+    default: option
   }
 })
 
@@ -30,7 +30,7 @@ defineOptions({
 
 onMounted(() => {
   initChart()
-  paintChart(option)
+  paintChart(props.defaultOption)
 })
 
 const initChart = () => {
@@ -38,7 +38,7 @@ const initChart = () => {
 }
 
 const paintChart = (option:any,notMerge:boolean = false) => {
-  console.log('paint')
+  // console.log('paint')
   charts.setOption(option,notMerge)
 }
 

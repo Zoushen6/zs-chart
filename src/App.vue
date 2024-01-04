@@ -4,14 +4,14 @@
   </header>
   <main>
     <div>
-      <z-chart ref="chart" :width="500"></z-chart>
+      <z-chart ref="chart" :width="500" ></z-chart>
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
 // import ZsChart from '@/components/ZsChart/index.vue'
-import {ZChart} from "zs-chart";  //按需引入方法
+import {ZChart} from "../zs-chart";  //按需引入方法
 import {ref,onMounted} from 'vue'
 const chart = ref()
 onMounted(() => {

@@ -10,6 +10,5 @@
   ],
   "compilerOptions": {
     "noImplicitAny": false,
-    "types": ["zs-chart"],
-  }
+  },
 }

@@ -18,6 +18,10 @@ const props = defineProps({
     type: Number,
     default: 200
   },
+  renderMode: {
+    type: String,
+    default: 'canvas'
+  },
   defaultOption: {
     type: Object,
     default: option
@@ -34,7 +38,11 @@ onMounted(() => {
 })
 
 const initChart = () => {
-  charts = echarts.init(chart.value)
+  //@ts-ignore
+  charts = echarts.init(chart.value,null,{
+    //@ts-ignore
+    renderer: props.renderMode
+  })
 }
 
 const paintChart = (option:any,notMerge:boolean = false) => {
